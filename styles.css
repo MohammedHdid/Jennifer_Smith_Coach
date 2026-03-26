@@ -427,9 +427,9 @@ footer {
 
 @media (max-width: 768px) {
   section {
-    padding: 4rem 0 !important;
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+    padding: 3rem 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 
   .hero {
