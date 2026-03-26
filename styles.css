@@ -432,23 +432,32 @@ footer {
     margin-bottom: 0 !important;
   }
 
+  /* Fixed Hero Touching Header & Bottom Gap */
   .hero {
-    padding-top: 6rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 1rem !important;
     min-height: auto;
+  }
+
+  .pas-section {
+    padding-top: 1rem !important;
+  }
+
+  /* Fixed Logo and Nav Button Touching */
+  .nav-container .btn {
+    width: auto;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
   }
 
   .offers-grid, .pas-grid {
     grid-template-columns: 1fr;
     margin-top: 2rem !important;
     gap: 1.5rem;
-  }
-
-  .pas-card {
-    padding: 2rem 1.5rem;
-  }
-
-  .offer-card {
-    padding: 2rem 1.5rem;
   }
 
   h1 {
