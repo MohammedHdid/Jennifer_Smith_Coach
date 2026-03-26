@@ -74,9 +74,9 @@
     </section>
 
     <!-- Mid Story Section -->
-    <section class="container story-section">
+    <section class="container story-section" style="margin-top: 8rem; margin-bottom: 6rem;">
         <div class="reveal">
-            <img src="./assets/workout.png" alt="Workout execution" class="story-image">
+            <img src="./assets/workout.png" alt="Workout execution" class="story-image" style="max-height: 450px; border-radius: 24px; box-shadow: 0 30px 60px -15px rgba(0,0,0,0.7);">
         </div>
         <div class="reveal" style="transition-delay: 0.2s;">
             <h2 style="font-size: 2.5rem;">Train with <span class="highlight-accent">Precision</span></h2>
@@ -88,8 +88,11 @@
     <!-- Offers Section -->
     <section id="offers" class="offers-section container">
         <div class="offers-header reveal">
+            <div style="display: inline-block; background: rgba(236, 72, 153, 0.15); color: var(--accent-pink); padding: 0.5rem 1.5rem; border-radius: 9999px; font-weight: 700; font-size: 0.9rem; margin-bottom: 1rem; border: 1px solid rgba(236, 72, 153, 0.4); box-shadow: 0 0 15px rgba(236, 72, 153, 0.2);">
+                <i class="uil uil-fire" style="margin-right: 0.25rem;"></i> HIGH DEMAND: Only 4 VIP Spots Remaining This Month
+            </div>
             <h2>Select Your <span class="highlight-accent">Path</span></h2>
-            <p class="lead" style="margin: 0 auto;">Choose the level of support that fits your current lifestyle and goals.</p>
+            <p class="lead" style="margin: 0 auto;">Choose the support level that fits your goals. <strong style="color: white;">Secure your spot before doors close for the month.</strong></p>
         </div>
 
         <div class="offers-grid">
@@ -98,7 +101,7 @@
             <div class="glass-panel offer-card reveal" style="transition-delay: 0.1s;">
                 <h3 class="offer-title">Nutrition Guidance</h3>
                 <p class="offer-desc">Perfect if you know how to train but need help fueling your body.</p>
-                <div class="offer-price">€149</div>
+                <div class="offer-price">$49</div>
                 <ul class="features-list">
                     <li><i class="uil uil-check"></i> Custom macros & calories</li>
                     <li><i class="uil uil-check"></i> Flexible meal blueprints</li>
@@ -113,7 +116,7 @@
                 <div class="popular-badge">Most Popular</div>
                 <h3 class="offer-title">12-Week Transformation</h3>
                 <p class="offer-desc">A structured sprint to break plateaus and build your foundation.</p>
-                <div class="offer-price">€497</div>
+                <div class="offer-price">$129</div>
                 <ul class="features-list">
                     <li><i class="uil uil-check"></i> <strong>Everything in Nutrition</strong></li>
                     <li><i class="uil uil-check"></i> Structured training blocks</li>
@@ -127,8 +130,8 @@
             <!-- Tier 3 -->
             <div class="glass-panel offer-card reveal" style="transition-delay: 0.3s;">
                 <h3 class="offer-title">1:1 Premium Coaching</h3>
-                <p class="offer-desc">The ultimate VIP experience with direct, daily personalized support.</p>
-                <div class="offer-price">€997<span style="font-size: 1rem; color: var(--text-muted); font-weight: 500;">/mo</span></div>
+                <p class="offer-desc">The ultimate VIP experience with direct, daily personalized support. <strong style="color: var(--accent-pink);">Strictly limited.</strong></p>
+                <div class="offer-price">$199<span style="font-size: 1rem; color: var(--text-muted); font-weight: 500;">/mo</span></div>
                 <ul class="features-list">
                     <li><i class="uil uil-check"></i> Customized to your body</li>
                     <li><i class="uil uil-check"></i> Direct daily WhatsApp access</li>
@@ -142,34 +145,64 @@
     </section>
 
     <!-- Testimonials / Client Wins Section -->
-    <section class="container pas-section">
+    <section class="container pas-section" style="margin-top: 4rem;">
         <h2 class="reveal">Client <span class="highlight">Wins</span></h2>
         <p class="lead reveal" style="margin: 0 auto;">Don't just take my word for it. See the real transformations.</p>
         
-        <div class="pas-grid" style="margin-top: 3rem;">
-            <div class="glass-panel pas-card reveal" style="transition-delay: 0.1s; text-align: left;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
-                <p class="offer-desc" style="font-style: italic;">"I struggled with yo-yo dieting for years. Jennifer's 12-week program didn't just transform my body, it fixed my mindset around food entirely. I finally feel athletic and strong."</p>
-                <h4 style="margin-top: 1rem; color: var(--text-main);">— Sarah M.</h4>
+        <div class="pas-grid" style="margin-top: 4rem;">
+            <!-- Review 1 -->
+            <div class="glass-panel pas-card reveal" style="transition-delay: 0.1s; text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <img src="./assets/client_1.png" alt="Sarah's Transformation" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                    <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
+                    <p class="offer-desc" style="font-style: italic;">"I struggled with yo-yo dieting for years. Jennifer's 12-week program didn't just transform my body, it fixed my mindset around food entirely. I finally feel athletic and strong."</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem; margin-top: 2rem;">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M." style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-pink);">
+                    <div>
+                        <h4 style="color: var(--text-main); line-height: 1.2;">Sarah M.</h4>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Lost 15 lbs</span>
+                    </div>
+                </div>
             </div>
             
-            <div class="glass-panel pas-card reveal" style="transition-delay: 0.2s; text-align: left;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
-                <p class="offer-desc" style="font-style: italic;">"The 1:1 VIP coaching is worth every penny. She doesn't just hand you a PDF; she is in your corner every single day. The accountability is unmatched."</p>
-                <h4 style="margin-top: 1rem; color: var(--text-main);">— Emily R.</h4>
+            <!-- Review 2 -->
+            <div class="glass-panel pas-card reveal" style="transition-delay: 0.2s; text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <img src="./assets/client_2.png" alt="Emily's Transformation" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                    <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
+                    <p class="offer-desc" style="font-style: italic;">"The 1:1 VIP coaching is worth every penny. She doesn't just hand you a PDF; she is in your corner every single day. The accountability is unmatched."</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem; margin-top: 2rem;">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily R." style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-pink);">
+                    <div>
+                        <h4 style="color: var(--text-main); line-height: 1.2;">Emily R.</h4>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Gained Lean Muscle</span>
+                    </div>
+                </div>
             </div>
             
-            <div class="glass-panel pas-card reveal" style="transition-delay: 0.3s; text-align: left;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
-                <p class="offer-desc" style="font-style: italic;">"I always thought I needed to eat less to look toned. Jennifer showed me how to fuel for performance. Never felt better or looked leaner!"</p>
-                <h4 style="margin-top: 1rem; color: var(--text-main);">— Jessica T.</h4>
+            <!-- Review 3 -->
+            <div class="glass-panel pas-card reveal" style="transition-delay: 0.3s; text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <img src="./assets/client_3.png" alt="Jessica's Transformation" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                    <div style="color: #FBBF24; margin-bottom: 1rem;"><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i></div>
+                    <p class="offer-desc" style="font-style: italic;">"I always thought I needed to eat less to look toned. Jennifer showed me how to fuel for performance. Never felt better or looked leaner!"</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem; margin-top: 2rem;">
+                    <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Jessica T." style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-pink);">
+                    <div>
+                        <h4 style="color: var(--text-main); line-height: 1.2;">Jessica T.</h4>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Dropped 2 Dress Sizes</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Final CTA Section -->
-    <section class="container" style="margin-bottom: 4rem;">
-        <div class="glass-panel reveal" style="padding: 4rem; text-align: center; border-color: var(--accent-pink); background: radial-gradient(circle at center, rgba(236, 72, 153, 0.1), transparent);">
+    <section class="container" style="margin-bottom: 8rem; margin-top: 4rem;">
+        <div class="glass-panel reveal" style="padding: 5rem 2rem; text-align: center; border-color: rgba(236, 72, 153, 0.4); background: radial-gradient(circle at center, rgba(236, 72, 153, 0.15) 0%, rgba(255,255,255,0.03) 100%);">
             <h2 style="font-size: 3rem;">Ready to Build Your <span class="highlight-accent">Best Self?</span></h2>
             <p class="lead" style="margin: 0 auto 2rem auto;">Stop wasting time on generic programs that don't fit your body or lifestyle.</p>
             <a href="https://wa.me/" class="btn btn-primary" style="font-size: 1.25rem; padding: 1.25rem 2.5rem;">
